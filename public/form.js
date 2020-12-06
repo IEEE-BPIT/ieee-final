@@ -106,12 +106,20 @@ document.getElementById("certi_bu").onclick = function certi_gen() {
 
     let xttp = new XMLHttpRequest();
     let email = document.getElementById("certi_input").value
-    let url = 'API/certificate/' + email;
+    let url = 'https://certificate-api.herokuapp.com/certificate/' + email;
+    window.open( 
+        url, "_blank"); 
     xttp.open("GET", url);
-    xttp.onload = () => 
-    {
-        console.log(this.responseText);
-    }
+     xttp.onload = () => 
+     {
+         console.log(this.responseText);
+     }
 
-    xttp.send()
-}
+     xttp.send()
+ }
+
+// function onclickfunction(){
+// 	let email = document.getElementById('certi_input').value;
+// 	window.open('https://ieeecerti.herokuapp.com/user_verification/?email='+email)
+
+// }
