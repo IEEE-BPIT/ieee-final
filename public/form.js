@@ -102,6 +102,9 @@
 //  let xttp = new XMLHttpRequest();
 // }
 
+
+
+
 document.getElementById("certi_bu").onclick = function certi_gen() {
 
     let xttp = new XMLHttpRequest();
@@ -121,5 +124,4 @@ document.getElementById("certi_bu").onclick = function certi_gen() {
 // function onclickfunction(){
 // 	let email = document.getElementById('certi_input').value;
 // 	window.open('https://ieeecerti.herokuapp.com/user_verification/?email='+email)
-
 // }
