@@ -3,6 +3,13 @@ html{
     min-height: 100%
 }
 
+
+.navtext 
+{
+  font-size: 14.2px !important;
+
+
+}
 .nav-item {
 	    font-weight: 700;
 
